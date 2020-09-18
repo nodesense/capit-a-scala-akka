@@ -1,0 +1,186 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="ff36305f-8cbe-4439-8beb-ae203175367a" name="Default Changelist" comment="" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="CodeStyleSettingsInfer">
+    <option name="done" value="true" />
+  </component>
+  <component name="ExternalProjectsData">
+    <projectState path="$PROJECT_DIR$">
+      <ProjectState />
+    </projectState>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Scala Object" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectCodeStyleSettingsMigration">
+    <option name="version" value="1" />
+  </component>
+  <component name="ProjectId" id="1hfZ25TZ2cLJ6Pj2rLcDE4Docpo" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="PropertiesComponent">
+    <property name="project.structure.last.edited" value="Libraries" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.2" />
+    <property name="settings.editor.selected.configurable" value="project.propVCSSupport.Mappings" />
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager" selected="Application.HigherOrderFunctionExample">
+    <configuration name="ByNameExample" type="Application" factoryName="Application" temporary="true">
+      <option name="MAIN_CLASS_NAME" value="workshop.example.ByNameExample" />
+      <module name="scala-workshop" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="workshop.example.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="EitherExample" type="Application" factoryName="Application" temporary="true">
+      <option name="MAIN_CLASS_NAME" value="workshop.example.EitherExample" />
+      <module name="scala-workshop" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="workshop.example.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="HigherOrderFunctionExample" type="Application" factoryName="Application" temporary="true">
+      <option name="MAIN_CLASS_NAME" value="workshop.example.HigherOrderFunctionExample" />
+      <module name="scala-workshop" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="workshop.example.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="PartialFunctionExample" type="Application" factoryName="Application" temporary="true">
+      <option name="MAIN_CLASS_NAME" value="workshop.example.PartialFunctionExample" />
+      <module name="scala-workshop" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="workshop.example.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TrySuccessFailureExample" type="Application" factoryName="Application" temporary="true">
+      <option name="MAIN_CLASS_NAME" value="workshop.example.TrySuccessFailureExample" />
+      <module name="scala-workshop" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="workshop.example.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <list>
+      <item itemvalue="Application.EitherExample" />
+      <item itemvalue="Application.TrySuccessFailureExample" />
+      <item itemvalue="Application.PartialFunctionExample" />
+      <item itemvalue="Application.ByNameExample" />
+      <item itemvalue="Application.HigherOrderFunctionExample" />
+    </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.HigherOrderFunctionExample" />
+        <item itemvalue="Application.ByNameExample" />
+        <item itemvalue="Application.PartialFunctionExample" />
+        <item itemvalue="Application.TrySuccessFailureExample" />
+        <item itemvalue="Application.EitherExample" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SbtLocalSettings">
+    <option name="availableProjects">
+      <map>
+        <entry>
+          <key>
+            <ExternalProjectPojo>
+              <option name="name" value="scala-workshop" />
+              <option name="path" value="$PROJECT_DIR$" />
+            </ExternalProjectPojo>
+          </key>
+          <value>
+            <list>
+              <ExternalProjectPojo>
+                <option name="name" value="scala-workshop [file:/Users/krish/Training/scala-workshop/]" />
+                <option name="path" value="$PROJECT_DIR$" />
+              </ExternalProjectPojo>
+              <ExternalProjectPojo>
+                <option name="name" value="scala-workshop-build" />
+                <option name="path" value="$PROJECT_DIR$/project" />
+              </ExternalProjectPojo>
+            </list>
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="modificationStamps">
+      <map>
+        <entry key="$PROJECT_DIR$/build.sbt" value="1858082281" />
+        <entry key="$PROJECT_DIR$/project/build.properties" value="87871327" />
+      </map>
+    </option>
+    <option name="projectSyncType">
+      <map>
+        <entry key="$USER_HOME$/scala-workshop" value="PREVIEW" />
+        <entry key="$USER_HOME$/scala/flink-project" value="PREVIEW" />
+        <entry key="$USER_HOME$/scala/myntra-play-workshop" value="PREVIEW" />
+        <entry key="$USER_HOME$/scala/play-scala-db" value="PREVIEW" />
+        <entry key="$USER_HOME$/scala/play-scala-seed" value="PREVIEW" />
+        <entry key="$USER_HOME$/scala/play-web" value="PREVIEW" />
+        <entry key="$USER_HOME$/workshops/akka-scala-workshop" value="PREVIEW" />
+        <entry key="$USER_HOME$/workshops/scala-workshop" value="PREVIEW" />
+      </map>
+    </option>
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="ff36305f-8cbe-4439-8beb-ae203175367a" name="Default Changelist" comment="" />
+      <created>1600403896823</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1600403896823</updated>
+    </task>
+    <servers />
+  </component>
+</project>
