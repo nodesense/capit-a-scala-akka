@@ -21,7 +21,7 @@ object ByNameExample extends  App {
   def delayed(t: => Long) = {
     println("Delayed ")
     println(t)
-    // println(t)
+
   }
 
   printTime(nano())
@@ -42,4 +42,16 @@ object ByNameExample extends  App {
     100000
   })
 
+  //if(true) true part or elsepart
+  def ifOrElse( predicate: => Boolean, truePart: => Unit, elsePart: => Unit) = {
+     if (predicate) truePart else elsePart
+  }
+
+  ifOrElse(true, println("my true part"), { println("something failed") })
+
+  ifOrElse({ println("checking condition")
+             false
+            },
+            println("my true part"),
+            { println("something failed") })
 }

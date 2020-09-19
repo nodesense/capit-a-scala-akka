@@ -20,6 +20,8 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Scala Object" />
+        <option value="Scala Worksheet" />
+        <option value="Package Object" />
       </list>
     </option>
   </component>
@@ -31,7 +33,7 @@
   <component name="PropertiesComponent">
     <property name="project.structure.last.edited" value="Libraries" />
     <property name="project.structure.proportion" value="0.15" />
-    <property name="project.structure.side.proportion" value="0.2" />
+    <property name="project.structure.side.proportion" value="0.44852942" />
     <property name="settings.editor.selected.configurable" value="project.propVCSSupport.Mappings" />
   </component>
   <component name="RunDashboard">
@@ -46,10 +48,10 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.HigherOrderFunctionExample">
-    <configuration name="ByNameExample" type="Application" factoryName="Application" temporary="true">
-      <option name="MAIN_CLASS_NAME" value="workshop.example.ByNameExample" />
-      <module name="scala-workshop" />
+  <component name="RunManager" selected="Application.AkkaHelloWorld">
+    <configuration name="AkkaHelloWorld" type="Application" factoryName="Application" temporary="true">
+      <option name="MAIN_CLASS_NAME" value="workshop.example.AkkaHelloWorld" />
+      <module name="capita-scala-workshop" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="workshop.example.*" />
@@ -60,9 +62,9 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="EitherExample" type="Application" factoryName="Application" temporary="true">
-      <option name="MAIN_CLASS_NAME" value="workshop.example.EitherExample" />
-      <module name="scala-workshop" />
+    <configuration name="BoundsExample" type="Application" factoryName="Application" temporary="true">
+      <option name="MAIN_CLASS_NAME" value="workshop.example.BoundsExample" />
+      <module name="capita-scala-workshop" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="workshop.example.*" />
@@ -73,9 +75,9 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="HigherOrderFunctionExample" type="Application" factoryName="Application" temporary="true">
-      <option name="MAIN_CLASS_NAME" value="workshop.example.HigherOrderFunctionExample" />
-      <module name="scala-workshop" />
+    <configuration name="FutureExample" type="Application" factoryName="Application" temporary="true">
+      <option name="MAIN_CLASS_NAME" value="workshop.example.FutureExample" />
+      <module name="capita-scala-workshop" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="workshop.example.*" />
@@ -86,9 +88,9 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="PartialFunctionExample" type="Application" factoryName="Application" temporary="true">
-      <option name="MAIN_CLASS_NAME" value="workshop.example.PartialFunctionExample" />
-      <module name="scala-workshop" />
+    <configuration name="NonBlockingFuture" type="Application" factoryName="Application" temporary="true">
+      <option name="MAIN_CLASS_NAME" value="workshop.example.NonBlockingFuture" />
+      <module name="capita-scala-workshop" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="workshop.example.*" />
@@ -99,9 +101,9 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TrySuccessFailureExample" type="Application" factoryName="Application" temporary="true">
-      <option name="MAIN_CLASS_NAME" value="workshop.example.TrySuccessFailureExample" />
-      <module name="scala-workshop" />
+    <configuration name="ThreadExample" type="Application" factoryName="Application" temporary="true">
+      <option name="MAIN_CLASS_NAME" value="workshop.example.ThreadExample" />
+      <module name="capita-scala-workshop" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="workshop.example.*" />
@@ -112,20 +114,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <list>
-      <item itemvalue="Application.EitherExample" />
-      <item itemvalue="Application.TrySuccessFailureExample" />
-      <item itemvalue="Application.PartialFunctionExample" />
-      <item itemvalue="Application.ByNameExample" />
-      <item itemvalue="Application.HigherOrderFunctionExample" />
-    </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.HigherOrderFunctionExample" />
-        <item itemvalue="Application.ByNameExample" />
-        <item itemvalue="Application.PartialFunctionExample" />
-        <item itemvalue="Application.TrySuccessFailureExample" />
-        <item itemvalue="Application.EitherExample" />
+        <item itemvalue="Application.AkkaHelloWorld" />
+        <item itemvalue="Application.NonBlockingFuture" />
+        <item itemvalue="Application.FutureExample" />
+        <item itemvalue="Application.ThreadExample" />
+        <item itemvalue="Application.BoundsExample" />
       </list>
     </recent_temporary>
   </component>
@@ -135,7 +130,7 @@
         <entry>
           <key>
             <ExternalProjectPojo>
-              <option name="name" value="scala-workshop" />
+              <option name="name" value="capita-scala-workshop" />
               <option name="path" value="$PROJECT_DIR$" />
             </ExternalProjectPojo>
           </key>
@@ -146,7 +141,7 @@
                 <option name="path" value="$PROJECT_DIR$" />
               </ExternalProjectPojo>
               <ExternalProjectPojo>
-                <option name="name" value="scala-workshop-build" />
+                <option name="name" value="capita-scala-workshop-build" />
                 <option name="path" value="$PROJECT_DIR$/project" />
               </ExternalProjectPojo>
             </list>
@@ -156,7 +151,7 @@
     </option>
     <option name="modificationStamps">
       <map>
-        <entry key="$PROJECT_DIR$/build.sbt" value="1858082281" />
+        <entry key="$PROJECT_DIR$/build.sbt" value="2441587977" />
         <entry key="$PROJECT_DIR$/project/build.properties" value="87871327" />
       </map>
     </option>
