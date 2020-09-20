@@ -1,5 +1,7 @@
 package workshop.example
 
+import scala.annotation.tailrec
+
 object MethodsApp extends  App {
   // explicit return type, single line
   // b is default if not passed
@@ -76,5 +78,41 @@ object MethodsApp extends  App {
                    }
 
   println("canVote2 ", canVote2)
+
+
+
+  @tailrec
+  def gcd(a: Int, b: Int): Int = {
+    if (b == 0) a else gcd(b, a % b)
+  }
+
+  // cannot be tail recursing due to call stack maintenance
+  // @tailrec //ERROR
+  def factorial(n: Int): Int = {
+    if (n <= 0)
+      return 1
+
+    println(s"N $n")
+
+    n * factorial(n - 1);
+  }
+
+  def factorialWithTail(n: Int) = {
+    var acc = 1
+
+    @tailrec
+    def fact(i: Int): Int = {
+      if (i <= 0)
+        return acc
+
+      acc *= i;
+
+      fact(i - 1)
+    }
+
+    fact(n)
+  }
+
+  println(factorialWithTail(10))
 
 }

@@ -108,4 +108,17 @@ object FunctionsExample extends  App {
 
   // in SCALA, has default implicit conversion which convert def to function sugar
 
+
+  val factFunc = new Function1[Int,Int]{
+    def apply(x:Int):Int = if(x==1) x else x * apply(x-1)
+  }
+
+  println(factFunc(5))
+
+  val factorial = new ((Int) => Int){
+    def apply(x:Int):Int = if(x==1) x else x * apply(x-1)
+  }
+
+  println(factorial(4))
+
 }

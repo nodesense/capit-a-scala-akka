@@ -1,15 +1,12 @@
 Fold,
-
 Reduce,
-
 Flattening
-
 Partially applied functions
-
 tail recursion
-
 Unit Testing 
 
+
+https://www.slideshare.net/hermannhueck/whats-new-in-scala-213
 
 
 

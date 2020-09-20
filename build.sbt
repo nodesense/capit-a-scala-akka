@@ -21,6 +21,9 @@ libraryDependencies += "com.typesafe.akka" %% "akka-cluster" % akkaVersion
 
 libraryDependencies += "org.scalactic" %% "scalactic" % "3.2.0"
 libraryDependencies += "org.scalatest" %% "scalatest" % "3.2.0" % "test"
+libraryDependencies ++= Seq("org.specs2" %% "specs2-core" % "3.9.5" % "test")
+
+// libraryDependencies += "org.scalatest" %% "scalatest" % "3.2.0" % "test"
 
 // https://mvnrepository.com/artifact/com.typesafe.slick/slick
 libraryDependencies += "com.typesafe.slick" %% "slick" % "3.3.3"
@@ -30,3 +33,4 @@ libraryDependencies += "com.h2database" % "h2" % "1.4.200"
 
 // https://mvnrepository.com/artifact/com.typesafe.slick/slick-hikaricp
 libraryDependencies += "com.typesafe.slick" %% "slick-hikaricp" % "3.3.3"
+
