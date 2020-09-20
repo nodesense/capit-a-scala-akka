@@ -18,10 +18,14 @@ libraryDependencies += "com.typesafe.akka" %% "akka-http-spray-json" % "10.2.0-M
 libraryDependencies += "com.typesafe.akka" %% "akka-stream"     % akkaVersion
 // https://mvnrepository.com/artifact/com.typesafe.akka/akka-cluster
 libraryDependencies += "com.typesafe.akka" %% "akka-cluster" % akkaVersion
+libraryDependencies += "com.typesafe.akka" %% "akka-cluster-typed" % akkaVersion
 
 libraryDependencies += "org.scalactic" %% "scalactic" % "3.2.0"
 libraryDependencies += "org.scalatest" %% "scalatest" % "3.2.0" % "test"
 libraryDependencies ++= Seq("org.specs2" %% "specs2-core" % "3.9.5" % "test")
+
+libraryDependencies += "com.typesafe.akka" %% "akka-cluster-typed" % "2.6.5"
+
 
 // libraryDependencies += "org.scalatest" %% "scalatest" % "3.2.0" % "test"
 

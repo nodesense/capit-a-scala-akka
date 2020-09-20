@@ -7,6 +7,7 @@ import workshop.tables.InvoiceTable
 import scala.concurrent.ExecutionContext.Implicits.global
 
 
+
 object SlickHelloWorld extends  App {
 
   class Suppliers(tag: Tag) extends Table[(Int, String, String)](tag, "SUPPLIERS") {

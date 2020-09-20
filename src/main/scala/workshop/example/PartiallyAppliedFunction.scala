@@ -5,30 +5,22 @@ object  PartiallyAppliedFunction  extends  App {
   def calculateProductPrice(discount: Double, productPrice: Double): Double =
     (1 - discount/100) * productPrice
 
-  val dicountApplied = calculateProductPrice(30, _: Double)
 
+  println(calculateProductPrice(10, 100))
 
-  def getDiscount(discount: Double) = {
-    println("Discount called")
-    1 -  discount/100.0
-  }
+  // partially applied function, a curry function
+  // returns a new function, that wraps the value 30
+  val discountApplied30 = calculateProductPrice(30, _: Double)
 
-  def getPrice(price: Double) = {
-    println("price called")
-    price
-  }
+  println(discountApplied30(1000))
 
+  def htmlTag(parent: String, child: String, content: String) =
+                              s"<$parent><$child>$content</$child></$parent>"
 
-  def calculateProductPrice2(discount: Double, price: Double): Double =
-    getDiscount(discount) * getPrice(price)
+  // closure, curry
+  val div = htmlTag("div", _: String, "100")
+  val table = htmlTag("table", _: String, "100")
 
-  def wrap(prefix: String, html: String, suffix: String) = {
-    prefix + html + suffix
-  }
+  println(div("span"))
 
-  val wrapWithDiv = wrap("<div>", _: String, "</div>")
-  wrapWithDiv("<p>Hello, world</p>")
-
-  val da = calculateProductPrice2(30, _: Double)
-  println(da(60))
 }

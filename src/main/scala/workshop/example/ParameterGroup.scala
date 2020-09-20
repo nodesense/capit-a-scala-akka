@@ -11,6 +11,7 @@ object ParameterGroup extends  App {
   val add = (a: Int, b: Int) => a + b
 
   // sum _ converts def to function
+  // sumOf10 is a partially applied function, the value 10 already applied
   val sumOf10 = (sum _) (10)  // a is 10 um (a: Int)
   val sumOf100 = (sum _) (100)
 

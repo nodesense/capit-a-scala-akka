@@ -23,11 +23,19 @@ object MethodsApp extends  App {
     return a / b // using returns need explicit type for return
   }
 
+  // fact(500000)
+  // every function leave call stack, it reserve memory
+  // fact(5) { stack, n = 5 }
+  // fact(4) { stack, n = 4 }
+  // fact(3) { stack, n = 3 }
+  // fact(2) { stack, n = 2 }
+  // fact(1) { stack, n =  1 }  <-- top , wind up
 
   def fact(n: Int): Int = {
     if (n == 1) 1 // return 1
     else n * fact(n - 1) // return n * fact(n - 1)
   }
+
 
 
   // vars argument *
@@ -80,14 +88,20 @@ object MethodsApp extends  App {
   println("canVote2 ", canVote2)
 
 
+  // tail recursion is to avoid expensive call stack
+  // rewrite the code to use simple non-call stack way
+  // for the compiler to optimize your program during compile
+
+
+  // n * fact(n-1) - not compatible with tail recurrsion due to n (left)
 
   @tailrec
   def gcd(a: Int, b: Int): Int = {
-    if (b == 0) a else gcd(b, a % b)
+    if (b == 0) a else  gcd(b, a % b)
   }
 
   // cannot be tail recursing due to call stack maintenance
-  // @tailrec //ERROR
+  //@tailrec //ERROR
   def factorial(n: Int): Int = {
     if (n <= 0)
       return 1
@@ -97,7 +111,8 @@ object MethodsApp extends  App {
     n * factorial(n - 1);
   }
 
-  def factorialWithTail(n: Int) = {
+  def factorialWithTrail(n: Int) = {
+    // accumulator
     var acc = 1
 
     @tailrec
@@ -107,12 +122,12 @@ object MethodsApp extends  App {
 
       acc *= i;
 
-      fact(i - 1)
+       fact(i - 1)
     }
 
     fact(n)
   }
 
-  println(factorialWithTail(10))
+  println(factorialWithTrail(10))
 
 }
