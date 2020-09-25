@@ -2,26 +2,48 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="ff36305f-8cbe-4439-8beb-ae203175367a" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/Cluster.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/scala/workshop/actors/InvoiceActor.scala" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/scala/workshop/example/AkkaGetStarted.scala" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/scala/workshop/example/ClusterExample.scala" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/scala/workshop/repositories/InvoiceRepository.scala" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Notes.md" beforeDir="false" afterPath="$PROJECT_DIR$/Notes.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/build.sbt" beforeDir="false" afterPath="$PROJECT_DIR$/build.sbt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/project/target/config-classes/$4c183658b59a5123d1b0$.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/project/target/config-classes/$4c183658b59a5123d1b0.cache" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/project/target/config-classes/$4c183658b59a5123d1b0.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/project/target/config-classes/$5893a8224de2858d3a28$.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/project/target/config-classes/$5893a8224de2858d3a28.cache" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/project/target/config-classes/$5893a8224de2858d3a28.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/project/target/config-classes/$beed2ee4046dee50bd58$.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/project/target/config-classes/$beed2ee4046dee50bd58.cache" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/project/target/config-classes/$beed2ee4046dee50bd58.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/project/target/config-classes/$df1d63385ca3fb632353$.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/project/target/config-classes/$df1d63385ca3fb632353.cache" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/project/target/config-classes/$df1d63385ca3fb632353.class" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/project/target/streams/compile/compileIncremental/_global/streams/out" beforeDir="false" afterPath="$PROJECT_DIR$/project/target/streams/compile/compileIncremental/_global/streams/out" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/project/target/streams/compile/copyResources/_global/streams/out" beforeDir="false" afterPath="$PROJECT_DIR$/project/target/streams/compile/copyResources/_global/streams/out" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/resources/application.conf" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/application.conf" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/scala/workshop/example/FlattenExample.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/scala/workshop/example/FlattenExample.scala" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/scala/workshop/example/FoldExamples.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/scala/workshop/example/FoldExamples.scala" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/scala/workshop/example/MethodsApp.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/scala/workshop/example/MethodsApp.scala" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/scala/workshop/example/ParameterGroup.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/scala/workshop/example/ParameterGroup.scala" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/scala/workshop/example/PartiallyAppliedFunction.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/scala/workshop/example/PartiallyAppliedFunction.scala" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/scala/workshop/example/ReduceExample.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/scala/workshop/example/ReduceExample.scala" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/scala/workshop/example/SlickHelloWorld.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/scala/workshop/example/SlickHelloWorld.scala" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/scala/workshop/models/Invoice.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/scala/workshop/models/Invoice.scala" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/scala/workshop/tables/InvoiceTable.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/scala/workshop/tables/InvoiceTable.scala" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/.history" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.13/classes/application.conf" beforeDir="false" afterPath="$PROJECT_DIR$/target/scala-2.13/classes/application.conf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.13/classes/workshop/example/AkkaGetStarted$.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/scala-2.13/classes/workshop/example/AkkaGetStarted$.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.13/update/update_cache_2.13/inputs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.13/update/update_cache_2.13/output" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/streams/_global/_global/checkBuildSources/_global/inputFileStamps/previous" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/streams/_global/_global/checkBuildSources/_global/streams/out" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/streams/_global/_global/csrLogger/_global/streams/out" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/streams/_global/csrConfiguration/_global/streams/out" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/streams/_global/csrProject/_global/streams/out" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/streams/_global/dependencyPositions/_global/streams/update_cache_2.13/input_dsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/streams/_global/dependencyPositions/_global/streams/update_cache_2.13/output_dsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/streams/_global/ivyConfiguration/_global/streams/out" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/streams/_global/ivySbt/_global/streams/out" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/streams/_global/moduleSettings/_global/streams/out" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/streams/_global/projectDescriptors/_global/streams/out" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/streams/_global/ssExtractDependencies/_global/streams/out" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/streams/_global/update/_global/streams/out" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/streams/compile/unmanagedClasspath/_global/streams/export" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/streams/compile/unmanagedJars/_global/streams/export" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/streams/runtime/unmanagedClasspath/_global/streams/export" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/streams/runtime/unmanagedJars/_global/streams/export" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/streams/test/unmanagedClasspath/_global/streams/export" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/streams/test/unmanagedJars/_global/streams/export" beforeDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -87,7 +109,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.AkkaGetStarted">
+  <component name="RunManager" selected="Application.ClusterExample">
     <configuration name="AkkaGetStarted" type="Application" factoryName="Application" temporary="true">
       <option name="MAIN_CLASS_NAME" value="workshop.example.AkkaGetStarted" />
       <module name="capita-scala-workshop" />
@@ -155,8 +177,8 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.AkkaGetStarted" />
         <item itemvalue="Application.ClusterExample" />
+        <item itemvalue="Application.AkkaGetStarted" />
         <item itemvalue="Application.SlickHelloWorld" />
         <item itemvalue="Application.FlattenExample" />
         <item itemvalue="Application.FoldExamples" />
@@ -191,7 +213,7 @@
     <option name="modificationStamps">
       <map>
         <entry key="$PROJECT_DIR$" value="3201007464067" />
-        <entry key="$PROJECT_DIR$/build.sbt" value="2662590589" />
+        <entry key="$PROJECT_DIR$/build.sbt" value="3531885192" />
         <entry key="$PROJECT_DIR$/project/build.properties" value="87871327" />
       </map>
     </option>
@@ -224,7 +246,9 @@
       <map>
         <entry key="MAIN">
           <value>
-            <State />
+            <State>
+              <option name="COLUMN_ORDER" />
+            </State>
           </value>
         </entry>
       </map>
