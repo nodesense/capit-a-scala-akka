@@ -1,11 +1,19 @@
 package workshop.example
 
-import akka.actor.{Actor, ActorRef, ActorSystem, PoisonPill, Props}
-import akka.cluster.Cluster
-import akka.cluster.ClusterEvent.{MemberDowned, MemberUp}
+import java.net.InetAddress
+
+import akka.actor.{Actor, ActorRef, ActorSystem, PoisonPill, Props, RootActorPath}
+import akka.cluster.{Cluster, Member, MemberStatus}
+import akka.cluster.ClusterEvent.{CurrentClusterState, MemberDowned, MemberUp}
+import akka.cluster.sharding.{ClusterSharding, ClusterShardingSettings, ShardRegion}
+import com.typesafe.config.ConfigFactory
+import workshop.actors.{ClusterListener, EmailServiceActor, TransformationBackend}
+import workshop.models.{BackendRegistration, TransformationJob, TransformationResult}
+
 import scala.concurrent.ExecutionContext.Implicits.global
 
 object ClusterExample extends  App {
+
 
   class BackendActor extends  Actor {
 
@@ -22,12 +30,20 @@ object ClusterExample extends  App {
     }
   }
 
+  val config = ConfigFactory.parseString(s"""
+      """
+  ).
+    withFallback(ConfigFactory.load("cluster-1"))
 
-  implicit val system = ActorSystem("ClusterSystem")
+
+  implicit val system = ActorSystem("ClusterSystem", config)
   val cluster = Cluster(system)
 
-  val backendActor = system.actorOf(Props[BackendActor], "backend")
+  // val backendActor = system.actorOf(Props[BackendActor], "backend")
 
-  // run the cluster on a system1, system2
-  // system1:2551, system2:2552
+  Cluster(system) registerOnMemberUp {
+    system.actorOf(Props[ClusterListener], name = "clusterListener")
+    system.actorOf(Props[EmailServiceActor], name = "emailService")
+    system.actorOf(Props(classOf[TransformationBackend]), name = "backend")
+  }
 }
