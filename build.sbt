@@ -18,6 +18,7 @@ libraryDependencies += "com.typesafe.akka" %% "akka-http-spray-json" % "10.2.0-M
 libraryDependencies += "com.typesafe.akka" %% "akka-stream"     % akkaVersion
 // https://mvnrepository.com/artifact/com.typesafe.akka/akka-cluster
 libraryDependencies += "com.typesafe.akka" %% "akka-cluster" % akkaVersion
+
 libraryDependencies += "com.typesafe.akka" %% "akka-cluster-tools" % akkaVersion
 libraryDependencies += "com.typesafe.akka" %% "akka-cluster-sharding" % akkaVersion
 
